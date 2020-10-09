@@ -1,3 +1,4 @@
+package com.mycompany.foobar;
 import java.util.Scanner;
 public class Test1 {
     static int m,y,d;
