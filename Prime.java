@@ -4,7 +4,7 @@ import java.util.*;
   
   public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
-      System.out.println("Enter a value:");
+      System.out.println("Please insert any number:");
       int n= scn.nextInt();
       int flag=0;
       for(int i=2;i*i<=n;i++){
@@ -14,10 +14,10 @@ import java.util.*;
           }
       }
       if(flag==1){
-          System.out.println("not prime");
+          System.out.println(n+" is not a prime number.");
       }
       else{
-          System.out.println("prime");
+          System.out.println(n+" is a prime number.");
       }
   }
   }
